@@ -16,6 +16,8 @@ ru_sdr:
   rx_gain: 40                                                     # Receive gain of the RF might need to adjusted to the given situation.
 
 cell_cfg:
+  nof_antennas_ul: 2
+  nof_antennas_dl: 2
   dl_arfcn: 632628                                                # ARFCN of the downlink carrier (center frequency).
   band: 78                                                        # The NR band.
   channel_bandwidth_MHz: 20                                       # Bandwith in MHz. Number of PRBs will be automatically derived.
